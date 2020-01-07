@@ -39,7 +39,7 @@ header {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-image: rgba(73, 85, 98, .9));
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .6), rgba(73, 85, 98, .9));
   }
 
   .btn-ghost {
