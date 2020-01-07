@@ -1,0 +1,49 @@
+html {
+  font-family: Georgia, serif;
+}
+
+header {
+  background-color: #495562;
+}
+
+.banner-img {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-content, .btn {
+  border-color: #fff;
+}
+
+.btn-ghost {
+  border-color: #97a49b;
+}
+
+.btn-ghost:hover {
+  border-color: #efefef;
+  background-color: #efefef;
+  color: #495562;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-btn {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (mind-width: 60em) {
+
+  .banner-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: rgba(73, 85, 98, .9));
+  }
+
+  .btn-ghost {
+    border-color: #fff;
+  }
+
+}
